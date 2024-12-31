@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edukasi Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .navbar {
+            background-color: #333;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        .nav-links a:hover {
+            background-color: #555;
+            border-radius: 3px;
+        }
+
+        .login-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+
+        .login-btn:hover {
+            background-color: #45a049;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            margin: 30px 0;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="MenuAwal.html" style="color: white;">Menu Awal</a> 
+                <a href="EdukasiDanBahaya.html" style="color: white;">Edukasi</a> 
+                <a href="Frey'sVaporshop.html" style="color: white;">Beranda</a> 
+                <a href="Pendaftaran.html" style="color: white;">Register</a> 
+                <a href="Produk.html" style="color: white;">Produk</a> 
+                <a href="Gallery.html" style="color: white;">Gallery</a>
+                <a href="Musik.html" style="color: white;">Music</a> 
+                <a href="LokasiDanTable.html" style="color: white;">Lokasi</a> 
+                <a href="ulasan.html" style="color: white;">Ulasan</a>
+        </div>
+        <a href="login.html" class="login-btn">Login</a>
+    </nav>
+
+    <div class="content">
+        <h1>Edukasi</h1>
+        
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/pCjSM6wGl8I?si=RpquCLxQCHlERDqg" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+        </div>
+
+        <h2>Edukasi Vape</h2>
+        <p>Halaman Website ini berisi tentang Edukasi Penggunaan Vapor</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+</body>
+</html>
